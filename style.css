@@ -1,0 +1,118 @@
+body{
+  background-image: url(images/background2.jpg);
+  background-size: cover;
+  margin:0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+  color:aliceblue;
+  padding: 30px;
+}
+
+#form {
+  width: 450px;
+  margin: 20vh auto 0 auto;
+  background-color: rgba(240, 255, 255, 0.452);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+h1{
+  text-align: center;
+}
+
+#form button {
+  background-color: #03863e;
+  color: aliceblue;
+  border: 1px solid rgba(249, 247, 247, 0);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.5s ease; 
+}
+
+#form button:hover {
+  background-color: #034d28; 
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  margin: 5px 0px;
+  padding: 10px;
+  border: 1.3px solid white;
+  border-radius: 5px;
+}
+
+#address {
+  margin: 5px 0px;
+  padding: 10px;
+  border: 1.3px solid white;
+  border-radius: 5px;
+  outline: 0;
+}
+.form-group select {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: 0;
+}
+.form-group input:focus {
+  outline: 0;
+}
+
+.form-group .error {
+  color: red;
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+.form-group.success input{
+  border-color: rgb(8, 217, 8);
+}
+
+.form-group.error input{
+  border-color: red;
+}
+
+/*trying to make address red */
+.form-group.success #address{
+  border-color: rgb(8, 217, 8);
+}
+
+.form-group.error #address{
+  border-color: red;
+}
+
+footer {
+  padding: 30px;
+  color:aliceblue;
+}
+#links {
+  color:aquamarine;
+}
+#links:visited {
+  color: bisque;
+}
+/* for the select drop down option*/
+.form-group.success select{
+  border-color: rgb(8, 217, 8);
+}
+
+.form-group.error select{
+  border-color: red;
+}
+/*for the department radio*/
+/* #department .error {
+  color: red;
+  font-size: 13px;
+  margin-top: 0px;
+} */
